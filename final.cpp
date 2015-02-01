@@ -51,18 +51,18 @@ bool check_answer(string answer, int puzzleNum){
             return (your_answer.find("29")!= -1);
         case 1:
 
-            return (your_answer.find("3")!= -1 || your_answer.find("three")!= -1);
+            return ((your_answer.find("3")!= -1 || your_answer.find("three")!= -1));
 
         case 2:
             //regex r("\\s*(snow)\\s*(man)");
 
-            return (your_answer.find("snowman") != -1 || your_answer.find("snow man") != -1); //(regex_m)atch(answer,snowman))));
+            return ((your_answer.find("snowman") != -1 || your_answer.find("snow man") != -1)); //(regex_m)atch(answer,snowman))));
 
         case 3:
             return (your_answer.find("22")!= -1);
 
         case 4:
-            return (your_answer.find("86")!= -1);	
+            return (your_answer.find("87")!= -1);	
 
 	return false;
 }
